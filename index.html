@@ -7,6 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Kirk Wight, web developer at Automattic">
     <title>Kirk Wight</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            margin: 25px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        a {
+            color: green;
+        }
+
+        nav>* {
+            padding: 25px;
+        }
+
+        body>section {
+            flex-grow: 1;
+            margin: 0 25px;
+        }
+    </style>
 </head>
 
 <body>
